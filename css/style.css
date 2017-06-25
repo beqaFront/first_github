@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding:0px;
+	text-decoration: none;
+	list-style: none;
+}
+section.home{
+	background: url(../images/bg-soil.jpg);
+	padding-top: 50px;
+	padding-bottom: 110px;
+}
+article.welcome{
+	background: rgba(78,46,8,0.5);
+	position: relative;
+	padding:50px 30px 0px 23px;
+	border-radius: 9px;
+}
+article.welcome:before{
+	    content: 'welcome';
+    background: url(../images/interface.png) 0 738px;
+    width: 169px;
+    height: 91px;
+    position: absolute;
+    top: -59px;
+
+}
+article.welcome .title_img{
+       color: #1f1005;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    position: absolute;
+    top: -15px;
+    left: 46px;
+    text-shadow: 0px 1px 0 #ffcf2a;
+}
+article p{
+  color: #ab967f;
+  font-family: arial;
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 27px;
+}
+article p a{
+  text-decoration: underline;
+  color: #ab967f;
+}
+aside.home > h2{
+	color: #daec18;
+	font-style: italic;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 0px;
+}
+aside.home .block{
+     padding: 18px 0 0 12px;
+    background: url(../images/fruitsalad.png);
+    width: 300px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+aside.home .block h3{
+ color: #ff5400;
+ font-style: italic;
+ font-weight: bold;
+ font-family: arial;
+ font-size: 20px;
+ margin-top: 0px;
+}
+aside.home .block .text{
+  color: #90a728;
+  font-size: 14px;
+  font-style: italic;
+	font-weight: bold;
+	font-family: arial;
+	text-align: center;
+	width: 155px;
+	overflow: hidden;
+}
+aside.home .block.secund{
+  background:url(../images/bakeapples.png);
+
+}
+aside.home .block.secund  h3{
+  color: #ff0c00;
+}
+aside.home .block.secund .text{
+  color: #ff9634;
+}
+/*footer*/
+footer{
+	background-color:#4d351f;
+	padding-top: 40px;
+	padding-bottom: 30px;
+
+}
+footer .block{
+   width: 300px;
+   height: 170px;
+   padding-top: 67px;
+   background:url(../images/interface.png) 0 924px;
+   position:relative;
+   margin-right: 75px;
+	}
+footer .block1 .img{
+     position: absolute;
+    background: url(../images/biking.png);
+        width: 202px;
+    height: 110px;
+    top: -57px;
+}
+footer .block2 .img{
+     position: absolute;
+    background: url(../images/children.png);
+        width: 202px;
+    height: 110px;
+    top: -57px;
+}
+footer .block h4{
+   font-size: 20px;
+   font-weight: bold;
+   font-style: italic;
+   color: #daec18
+
+}
+footer .block p{
+  color: #b0925e;
+  line-height: 24px;
+  font-size: 12px;
+	}
+.footer{
+	position: relative;
+}
+.footer:before{
+  content: '';
+    background: url(../images/interface.png) 0 1051px;
+    width: 367px;
+    height: 113px;
+    right: 61px;
+    bottom: 224px;
+    position: absolute;
+}
+footer .block3 h4{
+   font-size: 20px;
+   font-weight: bold;
+   font-style: italic;
+   color: #daec18;
+   margin-top: 12px;
+
+}
+footer .block3 ul{
+    background: url(../images/separator.png) 0 0 no-repeat;
+    padding-top: 10px;
+}
+footer .block3 ul li{
+    height: 33px;
+    width: 31px;
+    background: url(../images/icons.png) 0 33px;
+    margin-right: 33px;
+ 
+}
+footer .block3 ul li.google{
+
+    background: url(../images/icons.png) 0 33px;
+}
+footer .block3 ul li.gmail{
+    background: url(../images/icons.png) 0 115px;
+ 
+}
+footer .block3 ul li.fb{
+    background: url(../images/icons.png) 0 74px;
+ 
+}
+footer .block3 ul li.tweeter{
+    background: url(../images/icons.png) 0 153px;
+ 
+}
+footer .block3 ul li a{
+ display: block;
+ width: 33px;
+ height: 33px;
+}
+.paragrap{
+	color: #ab967f;
+	font-size: 12px;
+	font-family: arial;
+	line-height: 24px;
+}
+.footer .img{
+    background: url(../images/bakeapple.png);
+    width: 239px;
+    height: 141px;
+    position: absolute;
+    right: 90px;
+    top: -122px;
+}
